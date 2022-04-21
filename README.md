@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is my personnal blog as a software developer
+you can visit the site in [https://b-randrianarison.vercel.app](https://b-randrianarison.vercel.app/)
