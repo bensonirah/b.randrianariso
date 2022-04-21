@@ -5,7 +5,7 @@ import Header from "./header";
 import Footer from "./footer";
 
 export const website = {
-  defaultTitle: "Next.js sample website",
+  defaultTitle: "Home",
   author: "Bensonirah",
 };
 
