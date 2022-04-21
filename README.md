@@ -1,2 +1,2 @@
-This is my personnal blog as a software developer
-you can visit the site in [https://b-randrianarison.vercel.app](https://b-randrianarison.vercel.app/)
+This is my personnal portfolio website as a software developer
+you can visit it  at [https://b-randrianarison.vercel.app](https://b-randrianarison.vercel.app/)
