@@ -8,14 +8,13 @@ export default function About() {
         <h2>About</h2>
         <p>
           I am a software engineer, having a master degree from{" "}
-          <b>National School of Computer Science</b>{" "}
-          in Madagascar. I works as a web developer since 2018 at{" "}
-          <b>eTech company</b>{" "}
-          based in Madagascar.
+          <b>National School of Computer Science</b> in Madagascar. I works as a
+          web developer since 2018 at <b>eTech company</b> based in Madagascar.
         </p>
         <p>
           I usually work on back-end technologies like{" "}
           <b>symfony,nodejs,docker,mysql</b>
+          {" "}
           but I can also work in front-end tech like <b>
             nextjs,angular
           </b> and <b>react.</b>
