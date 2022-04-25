@@ -44,10 +44,13 @@ ul {
 
 }
 
-li a {
+a {
   text-decoration: none;
-  padding: 20px 25px;
   color: #333;
+}
+
+.menu__item a {
+  padding: 20px 25px;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 2px;
@@ -232,11 +235,43 @@ p {
 
 
 .project {
-  flex: 200px;
+  /*flex: 200px;*/
+  max-width: 324px;
   border: 1px solid #ddd;
   text-decoration: none;
   padding: 40px 20px;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project__footer {
+  padding: 7px 0;
+}
+
+.project__tech {
+  justify-content: space-evenly;
+  margin-bottom: 12px;
+}
+
+.project__tech li {
+  border: 1px solid lightgray;
+  padding: 0 5px;
+}
+
+.project__info {
+  font-size: 12px;
+  justify-content: space-around;
+}
+
+.project__info a {
+  display: block;
+}
+
+.project__info>li:nth-child(4) svg {
+  width: 20px;
+  height: 20px;
 }
 
 .project h3 {

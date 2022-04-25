@@ -1,12 +1,12 @@
-import { faArrowRight, faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Divider({ labelText }) {
   return (
     <>
       <hr />
-      <div class="slide">
-        <a href="" class="slide-show">
+      <div className="slide">
+        <a href="" className="slide-show">
           <FontAwesomeIcon icon={faArrowRight}/>
         </a>
         <p>{labelText}</p>
