@@ -8,7 +8,7 @@ export default function Banner() {
             Need for a developer to build your digital product with quality and
             well designed software?
           </p>
-          <p>Good luck, your are on the right</p>
+          <p>Good luck, your are on the right place</p>
           <a href="" className="btn btn-border-white">
             View my projects
           </a>
