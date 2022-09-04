@@ -14,6 +14,25 @@ export default function Layout({ children, home }) {
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -27,8 +46,11 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={website.defaultTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         {/* <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> */} 
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet"/> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <main>{children}</main>
