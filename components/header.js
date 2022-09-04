@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-
+import github from "../public/images/github.svg";
 export default function Header() {
   return (
     <>
@@ -21,8 +20,12 @@ export default function Header() {
               <a href="#">Projects</a>
             </li>
             <li className="menu__item">
-              <a href="#" className="btn btn-outline">
-                Get in touch
+              <a
+                href="https://github.com/bensonirah/b.randrianarison"
+                target={"_blank"}
+              >
+                <Image src={github} width={20} height={20} />
+                Source
               </a>
             </li>
           </ul>
