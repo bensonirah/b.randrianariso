@@ -7,9 +7,19 @@ export default function Footer() {
         <p>Follow me on</p>
         <br />
         <div className="social">
-          <a href="">Facebook</a>
+          <a
+            href="https://web.facebook.com/bienv.randrianarison"
+            target={"_blank"}
+          >
+            Facebook
+          </a>
           <a href="">Youtube</a>
-          <a href="">Linked In</a>
+          <a
+            href="https://www.linkedin.com/in/randrianarison-bienvenu-8a4a95112/"
+            target={"_blank"}
+          >
+            Linked In
+          </a>
         </div>
         <br />
         <hr />
