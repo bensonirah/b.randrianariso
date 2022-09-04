@@ -5,7 +5,4 @@ echo "Please wait!"
 docker container ls |grep bensonirah |awk -F' ' '{print $1}' |xargs docker container stop
 docker image rm bensonirah/bensonirah-io:latest
 echo "Image successful removed"
-echo "Trying to remove the project root.."
-cd ../
-rm -rf bensonirah_portfolio
-echo "Project removed success full"
+echo "Remove the project root folder manually"
