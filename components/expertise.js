@@ -4,7 +4,7 @@ export default function Expertise() {
       <div className="container">
         <h2>MY EXPERTISES</h2>
         <p>
-          As a software engineer gruatiated from National School of Computer
+          As a software engineer gratuated from National School of Computer
           Science,
         </p>
         <p>
